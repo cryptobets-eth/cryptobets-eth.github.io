@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+# Bookmaker Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Kody źródłowe smart contractów, napisanych w języku Solidity, są w folderze contracts. Folder scripts zawiera skrypt deploy.js wywoływany do wdrożenia smart contractu na blockchain. Pliki odpowiedzialne za testy smart contractów znajdują się w zakładce test. Plik hardhat.config.js to plik konfiguracyjny, w którym definiujemy m.in. wersję kompilatora Solidity, sieć blockchain do której będziemy wysyłać nasz kod, jak również usługę lub węzeł sieci, z którego będziemy korzystać do wysłania transakcji. Do ich podpisania musimy również podać klucz prywatny portfela. Plik ten **nie powinien być udostępniany w sieci** po podaniu klucza prywatnego, ponieważ może to spowodować **utratę wszystkich środków** z wygenerowanego przez ten klucz portfela.
 
-Try running some of the following tasks:
+Setup:
 
 ```shell
-npx hardhat help
+npm install
+npx hardhat compile
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+```
+
+Deploying and verifying smart contracts:
+
+```shell
+npx hardhat deploy
+npx hardhat verify "CONTRACT_ADDRESS" --network "NETWORK_NAME"
 ```
