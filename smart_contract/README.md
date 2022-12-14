@@ -5,7 +5,7 @@ Kody źródłowe smart contractów, napisanych w języku Solidity, są w folderz
 Setup:
 
 ```shell
-mv hardhat.template.config.js hardhat.config.js (bash) / rm hardhat.template.config.js hardhat.config.js (cmd)
+mv hardhat.template.config.js hardhat.config.js (bash) / ren hardhat.template.config.js hardhat.config.js (cmd)
 npm install
 npx hardhat compile
 npx hardhat test
