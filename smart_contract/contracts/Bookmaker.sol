@@ -178,13 +178,13 @@ contract Bookmaker is DataOracle {
             if (winner != address(0)) {
                 //if someone win bet
                 payable(winner).transfer(betOffer.expectedWin); //send win to winner
-                betOffer.isSettled = true;
+                betOffers[betId].isSettled = true;
             }
         } else if (gameIdResult[game.gameId].statusId == 1) {
             //if game status is canceled
             payable(betOffer.player1).transfer(betOffer.stake);
             payable(betOffer.player2).transfer((betOffer.expectedWin - betOffer.stake));
-            betOffer.isSettled = true; 
+            betOffers[betId].isSettled = true; 
         }
     }
 }
