@@ -12,7 +12,7 @@ const Footer = () => (
           target="_blank">
           whitepaper</a>
         <a className="text-white text-base text-center mx-2 cursor-pointer"
-          href="https://goerli.etherscan.io/address/0x1412BA1E2424A59c319649A0Fe9C14c929Da97Af"
+          href="https://goerli.etherscan.io/address/0x5572e8598053a67aafc58aa325ea0185cfe07bef"
           target="_blank">
           smartcontract
         </a>
