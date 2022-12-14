@@ -1,4 +1,4 @@
-# Github Pages for CryptoBets React App
+# Github Page for CryptoBets React App
 
 [https://cryptobets-eth.github.io/](https://cryptobets-eth.github.io/)
 
