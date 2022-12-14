@@ -17,7 +17,7 @@ const Footer = () => (
           smartcontract
         </a>
         <a className="text-white text-base text-center mx-2 cursor-pointer"
-          href="https://github.com/cryptobets-eth/CryptoBets"
+          href="https://github.com/cryptobets-eth/cryptobets-eth.github.io.git"
           target="_blank">
           github</a>
         <a className="text-white text-base text-center mx-2 cursor-pointer"
