@@ -169,9 +169,9 @@ contract Bookmaker is DataOracle {
                 winner = player1;
             } else if (homeScore < awayScore && player2Bet == 2) {
                 winner = player2;
-            } else if (player1Bet == 0) {
+            } else if (homeScore == awayScore && player1Bet == 0) {
                 winner = player1;
-            } else if (player2Bet == 0) {
+            } else if (homeScore == awayScore && player2Bet == 0) {
                 winner = player2;
             }
 
