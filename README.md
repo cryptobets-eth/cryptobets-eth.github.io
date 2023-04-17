@@ -7,7 +7,7 @@
 ### App preview:
 ![app_screen](appScreen.png)
 
-You can use IPFS Gateways to visit website through IPFS decentralised network:
+You can use IPFS Gateways to visit website through IPFS decentralised network:\
 https://cloudflare-ipfs.com/ipfs/QmYzWHfpgT4jJcPnVccokw2ci5gozP59bco9V6zKQngSAX/
 https://gateway.pinata.cloud/ipfs/QmYzWHfpgT4jJcPnVccokw2ci5gozP59bco9V6zKQngSAX/
 
